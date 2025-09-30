@@ -1,0 +1,450 @@
+[
+    {
+      "id": 1,
+      "name": "Smartphone Galaxy S23 Ultra",
+      "price": 1199.99,
+      "imageUrl": "https://example.com/images/galaxy-s23-ultra.jpg",
+      "description": "Último modelo de Samsung con cámara de 200MP y S Pen incluido",
+      "rating": 4.8,
+      "specifications": {
+        "storage": "512GB",
+        "ram": "12GB",
+        "screen": "6.8 inch Dynamic AMOLED",
+        "battery": "5000mAh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "MacBook Pro 14",
+      "price": 1999.99,
+      "imageUrl": "https://example.com/images/macbook-pro-14.jpg",
+      "description": "Portátil profesional con chip M2 Pro y pantalla Liquid Retina XDR",
+      "rating": 4.9,
+      "specifications": {
+        "processor": "M2 Pro",
+        "ram": "16GB",
+        "storage": "1TB SSD",
+        "screen": "14-inch"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Sony WH-1000XM5",
+      "price": 399.99,
+      "imageUrl": "https://example.com/images/sony-wh1000xm5.jpg",
+      "description": "Auriculares premium con cancelación de ruido líder en su clase",
+      "rating": 4.7,
+      "specifications": {
+        "battery": "30 hours",
+        "color": "Black",
+        "connectivity": "Bluetooth 5.2",
+        "weight": "250g"
+      }
+    },
+    {
+      "id": 4,
+      "name": "iPad Air 5",
+      "price": 599.99,
+      "imageUrl": "https://example.com/images/ipad-air-5.jpg",
+      "description": "Tablet versátil con chip M1 y compatibilidad con Apple Pencil",
+      "rating": 4.8,
+      "specifications": {
+        "screen": "10.9-inch Liquid Retina",
+        "storage": "256GB",
+        "chip": "M1",
+        "color": "Space Gray"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Canon EOS R6 Mark II",
+      "price": 2499.99,
+      "imageUrl": "https://example.com/images/canon-eos-r6-ii.jpg",
+      "description": "Cámara mirrorless profesional con enfoque automático avanzado",
+      "rating": 4.9,
+      "specifications": {
+        "sensor": "24.2MP Full-Frame",
+        "video": "4K 60fps",
+        "stabilization": "5-axis IBIS",
+        "autofocus": "Dual Pixel CMOS AF II"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Nintendo Switch OLED",
+      "price": 349.99,
+      "imageUrl": "https://example.com/images/switch-oled.jpg",
+      "description": "Consola híbrida con pantalla OLED mejorada",
+      "rating": 4.8,
+      "specifications": {
+        "screen": "7-inch OLED",
+        "storage": "64GB",
+        "battery": "4.5-9 hours",
+        "color": "White"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Dell XPS 15",
+      "price": 2199.99,
+      "imageUrl": "https://example.com/images/dell-xps-15.jpg",
+      "description": "Portátil premium con pantalla OLED y potente rendimiento",
+      "rating": 4.7,
+      "specifications": {
+        "processor": "Intel i9-13900H",
+        "ram": "32GB",
+        "storage": "1TB NVMe SSD",
+        "gpu": "RTX 4070"
+      }
+    },
+    {
+      "id": 8,
+      "name": "iPhone 15 Pro Max",
+      "price": 1199.99,
+      "imageUrl": "https://example.com/images/iphone-15-pro-max.jpg",
+      "description": "El iPhone más avanzado con titanio y chip A17 Pro",
+      "rating": 4.9,
+      "specifications": {
+        "storage": "512GB",
+        "screen": "6.7-inch ProMotion",
+        "chip": "A17 Pro",
+        "camera": "48MP main"
+      }
+    },
+    {
+      "id": 9,
+      "name": "LG C3 OLED 65\"",
+      "price": 2499.99,
+      "imageUrl": "https://example.com/images/lg-c3-oled.jpg",
+      "description": "Smart TV OLED con calidad de imagen excepcional",
+      "rating": 4.8,
+      "specifications": {
+        "resolution": "4K",
+        "hdr": "Dolby Vision",
+        "refresh": "120Hz",
+        "ports": "4x HDMI 2.1"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Bose QuietComfort 45",
+      "price": 329.99,
+      "imageUrl": "https://example.com/images/bose-qc45.jpg",
+      "description": "Auriculares con cancelación de ruido y comodidad superior",
+      "rating": 4.7,
+      "specifications": {
+        "battery": "24 hours",
+        "color": "Triple Black",
+        "audio": "TriPort acoustic",
+        "weight": "240g"
+      }
+    },
+    {
+      "id": 11,
+      "name": "DJI Mini 3 Pro",
+      "price": 759.99,
+      "imageUrl": "https://example.com/images/dji-mini-3-pro.jpg",
+      "description": "Dron compacto con cámara 4K y características profesionales",
+      "rating": 4.8,
+      "specifications": {
+        "weight": "249g",
+        "camera": "4K/60fps",
+        "battery": "34 minutes",
+        "range": "12km"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Microsoft Surface Laptop 5",
+      "price": 1299.99,
+      "imageUrl": "https://example.com/images/surface-laptop-5.jpg",
+      "description": "Portátil elegante con pantalla táctil y rendimiento sólido",
+      "rating": 4.6,
+      "specifications": {
+        "processor": "Intel i7",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "screen": "13.5-inch"
+      }
+    },
+    {
+      "id": 13,
+      "name": "GoPro HERO11 Black",
+      "price": 499.99,
+      "imageUrl": "https://example.com/images/gopro-hero11.jpg",
+      "description": "Cámara de acción con estabilización HyperSmooth 5.0",
+      "rating": 4.7,
+      "specifications": {
+        "sensor": "27MP",
+        "video": "5.3K60",
+        "waterproof": "33ft",
+        "stabilization": "HyperSmooth 5.0"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Samsung 49\" Odyssey G9",
+      "price": 1299.99,
+      "imageUrl": "https://example.com/images/samsung-odyssey-g9.jpg",
+      "description": "Monitor gaming curvo ultrawide con resolución dual QHD",
+      "rating": 4.8,
+      "specifications": {
+        "resolution": "5120x1440",
+        "refresh": "240Hz",
+        "curve": "1000R",
+        "hdr": "HDR1000"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Logitech MX Master 3S",
+      "price": 99.99,
+      "imageUrl": "https://example.com/images/mx-master-3s.jpg",
+      "description": "Ratón profesional con sensor de 8000 DPI y scroll MagSpeed",
+      "rating": 4.8,
+      "specifications": {
+        "sensor": "8000 DPI",
+        "battery": "70 days",
+        "buttons": "7",
+        "connectivity": "Bluetooth/USB"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Steam Deck",
+      "price": 649.99,
+      "imageUrl": "https://example.com/images/steam-deck.jpg",
+      "description": "Consola portátil para juegos de PC",
+      "rating": 4.7,
+      "specifications": {
+        "storage": "512GB NVMe",
+        "screen": "7-inch LCD",
+        "processor": "AMD APU",
+        "ram": "16GB"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Philips Hue Starter Kit",
+      "price": 199.99,
+      "imageUrl": "https://example.com/images/philips-hue.jpg",
+      "description": "Kit de iluminación inteligente con puente y 4 bombillas",
+      "rating": 4.6,
+      "specifications": {
+        "bulbs": "4x Color",
+        "bridge": "Included",
+        "compatibility": "Alexa/Google Home",
+        "wireless": "Zigbee"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Rode NT-USB",
+      "price": 169.99,
+      "imageUrl": "https://example.com/images/rode-nt-usb.jpg",
+      "description": "Micrófono USB profesional para streaming y podcast",
+      "rating": 4.7,
+      "specifications": {
+        "pattern": "Cardioid",
+        "resolution": "16-bit/48kHz",
+        "monitoring": "Zero-latency",
+        "mount": "Desktop stand"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Fitbit Sense 2",
+      "price": 299.99,
+      "imageUrl": "https://example.com/images/fitbit-sense-2.jpg",
+      "description": "Smartwatch avanzado con seguimiento de salud completo",
+      "rating": 4.5,
+      "specifications": {
+        "battery": "6+ days",
+        "sensors": "ECG, EDA, GPS",
+        "screen": "AMOLED",
+        "water": "50m"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Anker 737 Power Bank",
+      "price": 149.99,
+      "imageUrl": "https://example.com/images/anker-737.jpg",
+      "description": "Batería portátil de 24000mAh con carga rápida",
+      "rating": 4.8,
+      "specifications": {
+        "capacity": "24000mAh",
+        "output": "140W",
+        "ports": "2x USB-C, 1x USB-A",
+        "display": "Smart display"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Ring Video Doorbell Pro 2",
+      "price": 249.99,
+      "imageUrl": "https://example.com/images/ring-doorbell-pro-2.jpg",
+      "description": "Timbre inteligente con video HD y audio bidireccional",
+      "rating": 4.6,
+      "specifications": {
+        "resolution": "1536p HD",
+        "fov": "150° horizontal",
+        "wifi": "2.4/5GHz",
+        "power": "Hardwired"
+      }
+    },
+    {
+      "id": 22,
+      "name": "LG 27GP950-B",
+      "price": 799.99,
+      "imageUrl": "https://example.com/images/lg-27gp950.jpg",
+      "description": "Monitor gaming 4K con HDMI 2.1 y 144Hz",
+      "rating": 4.7,
+      "specifications": {
+        "resolution": "4K UHD",
+        "refresh": "144Hz",
+        "hdr": "DisplayHDR 600",
+        "gsync": "Compatible"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Keychron Q1",
+      "price": 169.99,
+      "imageUrl": "https://example.com/images/keychron-q1.jpg",
+      "description": "Teclado mecánico personalizable de alta calidad",
+      "rating": 4.8,
+      "specifications": {
+        "switches": "Gateron",
+        "layout": "75%",
+        "hotswap": "Yes",
+        "case": "Aluminum"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Elgato Stream Deck MK.2",
+      "price": 149.99,
+      "imageUrl": "https://example.com/images/stream-deck-mk2.jpg",
+      "description": "Controlador de contenido con 15 teclas LCD",
+      "rating": 4.8,
+      "specifications": {
+        "keys": "15 LCD keys",
+        "interface": "USB-C",
+        "software": "Stream Deck",
+        "os": "Windows/macOS"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Sonos Arc",
+      "price": 899.99,
+      "imageUrl": "https://example.com/images/sonos-arc.jpg",
+      "description": "Barra de sonido premium con Dolby Atmos",
+      "rating": 4.7,
+      "specifications": {
+        "channels": "5.0.2",
+        "dolby": "Atmos",
+        "wifi": "802.11ac",
+        "voice": "Alexa/Google"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Corsair K100 RGB",
+      "price": 229.99,
+      "imageUrl": "https://example.com/images/corsair-k100.jpg",
+      "description": "Teclado gaming mecánico con rueda de control",
+      "rating": 4.8,
+      "specifications": {
+        "switches": "OPX Optical",
+        "polling": "4000Hz",
+        "memory": "8MB",
+        "rgb": "Per-key RGB"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Sony ZV-1",
+      "price": 749.99,
+      "imageUrl": "https://example.com/images/sony-zv1.jpg",
+      "description": "Cámara compacta diseñada para vloggers",
+      "rating": 4.7,
+      "specifications": {
+        "sensor": "20.1MP",
+        "lens": "24-70mm",
+        "screen": "Vari-angle LCD",
+        "video": "4K/30p"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Jabra Elite 7 Pro",
+      "price": 199.99,
+      "imageUrl": "https://example.com/images/jabra-elite-7-pro.jpg",
+      "description": "Auriculares true wireless con cancelación de ruido",
+      "rating": 4.6,
+      "specifications": {
+        "battery": "30 hours total",
+        "anc": "Adjustable",
+        "ip": "IP57",
+        "codec": "AAC/SBC"
+      }
+    },
+    {
+      "id": 29,
+      "name": "ASUS ROG Swift PG32UQX",
+      "price": 2999.99,
+      "imageUrl": "https://example.com/images/asus-pg32uqx.jpg",
+      "description": "Monitor gaming 4K Mini LED",
+      "rating": 4.9,
+      "specifications": {
+        "panel": "Mini LED",
+        "hdr": "HDR 1400",
+        "refresh": "144Hz",
+        "size": "32-inch"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Razer Basilisk V3",
+      "price": 69.99,
+      "imageUrl": "https://example.com/images/razer-basilisk-v3.jpg",
+      "description": "Ratón gaming con scroll inteligente",
+      "rating": 4.7,
+      "specifications": {
+        "sensor": "26000 DPI",
+        "buttons": "11",
+        "rgb": "Razer Chroma",
+        "weight": "101g"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Samsung T7 Shield SSD",
+      "price": 159.99,
+      "imageUrl": "https://example.com/images/samsung-t7-shield.jpg",
+      "description": "SSD portátil resistente y rápido",
+      "rating": 4.8,
+      "specifications": {
+        "capacity": "1TB",
+        "speed": "1050MB/s",
+        "durability": "IP65",
+        "interface": "USB 3.2"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Logitech StreamCam",
+      "price": 169.99,
+      "imageUrl": "https://example.com/images/logitech-streamcam.jpg",
+      "description": "Webcam Full HD para streaming profesional",
+      "rating": 4.6,
+      "specifications": {
+        "resolution": "1080p/60fps",
+        "fov": "78°",
+        "connection": "USB-C",
+        "mount": "Monitor/Tripod"
+      }
+    }
+]
