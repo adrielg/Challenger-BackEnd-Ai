@@ -12,9 +12,9 @@ class ProductFileService implements ProductRepository
 {
     private string $jsonPath;
 
-    public function __construct()
+    public function __construct(?string $jsonPath = null)
     {
-        $this->jsonPath = base_path('database/data/items.json');
+        $this->jsonPath = $jsonPath ?? base_path('database/data/items.json');
     }
 
     /**
@@ -24,12 +24,12 @@ class ProductFileService implements ProductRepository
     private function readFile(): array
     {
         if (!file_exists($this->jsonPath)) {
-            throw new JsonFileNotFoundException();
+            throw new JsonFileNotFoundException("The JSON file does not exist");
         }
 
         $jsonContent = file_get_contents($this->jsonPath);
         if ($jsonContent === false) {
-            throw new JsonReadException();
+            throw new JsonReadException("Error reading JSON file");
         }
 
         $items = json_decode($jsonContent, true);
@@ -43,6 +43,7 @@ class ProductFileService implements ProductRepository
 
         return $items;
     }
+
 
     /**
      * @throws JsonFileNotFoundException

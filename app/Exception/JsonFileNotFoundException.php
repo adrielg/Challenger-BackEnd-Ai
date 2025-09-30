@@ -6,8 +6,8 @@ use Exception;
 
 class JsonFileNotFoundException extends Exception
 {
-    public function __construct()
+    public function __construct(string $message = 'The JSON file does not exist')
     {
-        parent::__construct("The JSON file does not exist");
+        parent::__construct($message);
     }
 }
