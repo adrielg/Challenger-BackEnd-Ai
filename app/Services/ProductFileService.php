@@ -14,7 +14,7 @@ class ProductFileService implements ProductRepository
 
     public function __construct(?string $jsonPath = null)
     {
-        $this->jsonPath = $jsonPath ?? base_path('database/data/items.json');
+        $this->jsonPath = $jsonPath ?? base_path('database/data/products.json');
     }
 
     /**

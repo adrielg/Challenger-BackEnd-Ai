@@ -36,7 +36,7 @@ class ProductController extends Controller
         return response()->json($products, 200, [], JSON_PRETTY_PRINT);
     }
 
-    public function search( string $id):JsonResponse
+    public function show( string $id):JsonResponse
     {
         try {
             $product = $this->getProduct->invoke($id);

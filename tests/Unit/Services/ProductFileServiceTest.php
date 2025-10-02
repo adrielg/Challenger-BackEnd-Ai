@@ -57,14 +57,14 @@ it('returns one product when JSON file contains multiple valid items', function 
 });
 
 it('throws JsonFileNotFoundException with correct message when JSON file is missing', function () {
-    $service = new ProductFileService('/ruta/falsa/items.json');
+    $service = new ProductFileService('/ruta/falsa/products.json');
 
     expect(fn() => $service->getAll())
         ->toThrow(JsonFileNotFoundException::class, 'The JSON file does not exist');
 });
 
 it('throws JsonFileNotFoundException when attempting to retrieve a product by id and file is missing', function () {
-    $service = new ProductFileService('/ruta/falsa/items.json');
+    $service = new ProductFileService('/ruta/falsa/products.json');
 
     expect(fn() => $service->getById('1'))
         ->toThrow(JsonFileNotFoundException::class, 'The JSON file does not exist');

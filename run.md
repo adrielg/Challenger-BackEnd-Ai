@@ -1,6 +1,6 @@
 # 🚀 Guía rápida para ejecutar el proyecto
 
-Este documento explica cómo configurar, levantar y probar el proyecto Laravel con las APIs `/api/items` y `/api/items/{id}`.
+Este documento explica cómo configurar, levantar y probar el proyecto Laravel con las APIs `/api/products` y `/api/products/{id}`.
 
 ---
 
@@ -10,15 +10,15 @@ Este documento explica cómo configurar, levantar y probar el proyecto Laravel c
 - Composer
 - Laravel CLI (opcional)
 
-> ✅ Nota: Las APIs leen los datos desde `database/data/items.json`, no es necesario configurar base de datos.
+> ✅ Nota: Las APIs leen los datos desde `database/data/products.json`, no es necesario configurar base de datos.
 
 ---
 
 ## 📥 Instalación
 
 1. Clonar el repositorio:
-   git clone https://github.com/usuario/proyecto.git
-   cd proyecto
+   ```bash
+   git clone https://github.com/adrielg/Challenger-BackEnd-Ai.git
    ```
 2. Instalar dependencias:
    ```bash

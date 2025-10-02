@@ -19,7 +19,7 @@ it('returns all products successfully', function () {
             ]);
     });
 
-    $response = $this->getJson('/api/items');
+    $response = $this->getJson('/api/products');
 
     $response->assertOk()
         ->assertJson(fn (AssertableJson $json) =>
@@ -42,7 +42,7 @@ it('returns a single product successfully', function () {
             ]));
     });
 
-    $response = $this->getJson('/api/items/1');
+    $response = $this->getJson('/api/products/1');
 
     $response->assertOk()
         ->assertJson(fn (AssertableJson $json) =>
@@ -60,7 +60,7 @@ it('returns 404 when product is not found', function () {
             ->andThrow(new ProductNotFoundException('Product not found'));
     });
 
-    $response = $this->getJson('/api/items/99');
+    $response = $this->getJson('/api/products/99');
 
     $response->assertNotFound()
         ->assertJson(fn (AssertableJson $json) =>

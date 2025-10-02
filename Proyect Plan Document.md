@@ -57,7 +57,7 @@ El proyecto consiste en desarrollar una API RESTful que permita:
    - Excepciones personalizadas para manejo de errores
 4. **Storage:**
    - Archivo JSON con estructura definida
-   - Ubicación en /database/data/items.json
+   - Ubicación en /database/data/products.json
 
 ### Fases del Proyecto
 1. **Fase 1 - Configuración Inicial:**
