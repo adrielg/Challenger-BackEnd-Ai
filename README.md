@@ -1,4 +1,8 @@
-# Proyecto Hackathon MercadoLibre
+<p align="center">
+  <img src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.22.8/mercadolibre/logo__large_plus.png" alt="MercadoLibre Logo" width="200"/>
+</p>
+
+# Proyecto Hackathon
 
 Este proyecto fue desarrollado como parte de un desafío técnico.  
 La solución implementa una **API RESTful** para la gestión de ítems, siguiendo buenas prácticas de desarrollo y una arquitectura simple pero escalable.
@@ -95,6 +99,7 @@ Esta estructura permite:
         }
     }
 ```
+
 - Cobertura de pruebas >80%
 - Documentación clara y concisa
 - Código mantenible y escalable

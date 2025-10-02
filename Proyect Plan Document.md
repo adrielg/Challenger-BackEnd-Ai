@@ -19,6 +19,8 @@ El proyecto consiste en desarrollar una API RESTful que permita:
 
 3. **Objetivos Técnicos:**
    - Seguir principios SOLID
+   - Utilizar control de versiones con Git
+   - Crear rutas RESTful claras y documentadas
    - Implementar patrones de diseño apropiados
    - Documentar API y código fuente
    - Optimizar rendimiento de lectura JSON
